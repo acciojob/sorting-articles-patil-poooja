@@ -1,1 +1,39 @@
-/*  your css code here. If applicable */
+		body{
+		font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://static.toiimg.com/thumb/msid-93338847,width-1070,height-580,resizemode-75/93338847,pt-32,y_pad-40/93338847.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .list {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .list ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+        }
+        .list li:last-child {
+            border-bottom: none;
+        }
+        .list li i {
+            margin-right: 10px;
+        }
